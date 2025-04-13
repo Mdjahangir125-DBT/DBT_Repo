@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: Dmart_source
+    database: DBT_RAW_JAHA
+    schema: raw
+    tables:
+      - name: dmart_table
